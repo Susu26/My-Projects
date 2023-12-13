@@ -1,0 +1,214 @@
+{
+  "doors" : [
+    {
+      "img"  : "./images/The_Tale_of_the_Princess_Kaguya.jpg",
+      "year" : 2003,
+      "title": "The Tale of The Princess Kaguya",
+      "description" : "Found inside a shining stalk of bamboo by an old bamboo cutter and his wife, a tiny girl grows rapidly into an exquisite young lady. The mysterious young princess enthralls all who encounter her, but ultimately she must confront her fate, the punishment for her crime.",
+      "duration" : 137,
+      "Genre" : "Animation, Drama, Family"
+    },
+
+    {
+      "img"  : "./images/spirited_away.jpg",
+      "year" : 2001,
+      "title": "Spirited Away",
+      "description" : "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches and spirits, a world where humans are changed into beasts.",
+      "duration" : 125,
+      "Genre" : "Animation, Adventure, Family"
+    },
+
+    {
+      "img"  : "./images/when_marnie_was_here.jpg",
+      "year" : 2014,
+      "title": "When Marnie Was There",
+      "description" : "Due to 12-year-old Anna's asthma, she's sent to stay with relatives of her guardian in the Japanese countryside. She likes to be alone, sketching. She befriends Marnie. Who is the mysterious, blonde Marnie?",
+      "duration" : 103,
+      "Genre" : "Animation, Drama, Family"
+    },
+
+    {
+      "img"  : "./images/grave_of_the_fireflies.jpg",
+      "year" : 1988,
+      "title": "Grave of the Fireflies",
+      "description" : "A young boy and his little sister struggle to survive in Japan during World War II.",
+      "duration" : 89,
+      "Genre" : "Animation, Drama, War"
+    },
+
+    {
+      "img"  : "./images/Princess_Mononoke.png",
+      "year" : 1997,
+      "title": "Princess Mononoke",
+      "description" : "On a journey to find the cure for a Tatarigami's curse, Ashitaka finds himself in the middle of a war between the forest gods and Tatara, a mining colony. In this quest he also meets San, the Mononoke Hime.\n\n",
+      "duration" : 134,
+      "Genre" : "Animation, Drama, War"
+    },
+
+    {
+      "img"  : "./images/The_secret_world_of_arrietty.jpg",
+      "year" : 2010,
+      "title": "The Secret World of Arrietty",
+      "description" : "The Clock family are four-inch-tall people who live anonymously in another family's residence, borrowing simple items to make their home. Life changes for the Clocks when their teenage daughter Arrietty is discovered.",
+      "duration" : 94,
+      "Genre" : "Animation, Adventure, Drama"
+    },
+
+    {
+      "img"  : "./images/Pom_poko.jpg",
+      "year" : 1994,
+      "title": "Pom Poko",
+      "description" : "A community of magical shape-shifting raccoon dogs struggle to prevent their forest home from being destroyed by urban development.",
+      "duration" : 119,
+      "Genre" : "Animation, Comedy, Drama"
+    },
+
+    {
+      "img"  : "./images/only_yesterday.jpg",
+      "year" : 1991,
+      "title": "Only Yesterday",
+      "description" : "A twenty-seven-year-old office worker travels to the countryside while reminiscing about her childhood in Tokyo.",
+      "duration" : 119,
+      "Genre" : "Animation, Drama, Romance"
+    },
+
+    {
+      "img"  : "./images/my_neighbour_totoro.jpg",
+      "year" : 1988,
+      "title": "My Neighbor Totoro",
+      "description" : "When two girls move to the country to be near their ailing mother, they have adventures with the wondrous forest spirits who live nearby.",
+      "duration" : 86,
+      "Genre" : "Animation, Comedy, Family"
+    },
+
+    {
+      "img"  : "./images/when_the_wind_rises.jpg",
+      "year" : 2013,
+      "title": "The Wind Rises",
+      "description" : "A look at the life of Jiro Horikoshi, the man who designed Japanese fighter planes during World War II.",
+      "duration" : 126,
+      "Genre" : "Animation, Biography, Drama"
+    },
+
+    {
+      "img"  : "./images/Nausicaa_of_the_valley.jpg",
+      "year" : 1984,
+      "title": "Nausicaä of the Valley of the Wind",
+      "description" : "Warrior and pacifist Princess Nausicaä desperately struggles to prevent two warring nations from destroying themselves and their dying planet.",
+      "duration" : 117,
+      "Genre" : "Animation, Adventure, Sci-Fi"
+    },
+
+
+    {
+      "img"  : "./images/ponyo.jpg",
+      "year" : 2008,
+      "title": "Ponyo",
+      "description" : "A five-year-old boy develops a relationship with Ponyo, a young goldfish princess who longs to become a human after falling in love with him.",
+      "duration" : 101,
+      "Genre" : "Animation, Adventure, Comedy"
+    },
+
+    {
+      "img"  : "./images/kikis_delivery-service.jpg",
+      "year" : 1989,
+      "title": "Kiki's Delivery Service",
+      "description" : "A young witch, on her mandatory year of independent life, finds fitting into a new community difficult while she supports herself by running an air courier service.",
+      "duration" : 103,
+      "Genre" : "Animation, Family, Fantasy"
+    },
+
+    {
+      "img"  : "./images/my_neighbour_the_yamadas.jpg",
+      "year" : 1999,
+      "title": "My Neighbors the Yamadas",
+      "description" : "The life and misadventures of a family in contemporary Japan.",
+      "duration" : 104,
+      "Genre" : "Animation, Comedy, Family"
+    },
+
+    {
+      "img"  : "./images/Porco_Rosso.jpg",
+      "year" : 1992,
+      "title": "Porco Rosso",
+      "description" : "In 1930s Italy, a veteran World War I pilot is cursed to look like an anthropomorphic pig.",
+      "duration" : 94,
+      "Genre" : "Animation, Adventure, Comedy"
+    },
+
+    {
+      "img"  : "./images/howls_moving_castle.jpg",
+      "year" : 2004,
+      "title": "Howl's Moving Castle",
+      "description" : "When an unconfident young woman is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking castle.",
+      "duration" : 119,
+      "Genre" : "Animation, Adventure, Family"
+    },
+
+    {
+      "img"  : "./images/castle_in_the_sky.jpg",
+      "year" : 1986,
+      "title": "Castle in the Sky",
+      "description" : "A young boy and a girl with a magic crystal must race against pirates and foreign agents in a search for a legendary floating castle.",
+      "duration" : 125,
+      "Genre" : "Animation, Adventure, Family"
+    },
+
+    {
+      "img"  : "./images/whisper_of_the_heart.jpg",
+      "year" : 1995,
+      "title": "Whisper of the Heart",
+      "description" : "A love story between a girl who loves reading books, and a boy who has previously checked out all of the library books she chooses.",
+      "duration" : 111,
+      "Genre" : "Animation, Drama, Family"
+    },
+
+    {
+      "img"  : "./images/From_Up_On_Poppy_Hill.jpg",
+      "year" : 2011,
+      "title": "From Up on Poppy Hill",
+      "description" : "A group of Yokohama teens look to save their school's clubhouse from the wrecking ball in preparations for the 1964 Tokyo Olympics.",
+      "duration" : 91,
+      "Genre" : "Animation, Comedy, Drama"
+    },
+
+    {
+      "img"  : "./images/Tales_From_Earthsea.jpg",
+      "year" : 2006,
+      "title": "Tales from Earthsea",
+      "description" : "In a mythical land, a man and a young boy investigate a series of unusual occurrences.",
+      "duration" : 115,
+      "Genre" : "Animation, Adventure, Fantasy"
+    },
+
+    {
+      "img"  : "./images/The_Cat_Returns.jpg",
+      "year" : 2002,
+      "title": "The Cat Returns",
+      "description" : "",
+      "duration" : 75,
+      "Genre" : "After helping a cat, a seventeen-year-old girl finds herself involuntarily engaged to a cat Prince in a magical world where her only hope of freedom lies with a dapper cat statuette come to life."
+    },
+
+    {
+      "img"  : "./images/ocean_waves.jpg",
+      "year" : 1993,
+      "title": "Ocean Waves",
+      "description" : "As a young man returns home after his first year away at college he recalls his senior year of high school and the iron-willed, big city girl that turned his world upside down.",
+      "duration" : 76,
+      "Genre" : "Animation, Drama, Romance"
+    },
+
+    {
+      "title": "THE SECRET DOOR",
+      "description" : "You've reached the 23rd door, which means you're nearing the end, and Christmas is just around the corner. To keep things interesting, you'll receive a secret message containing information on how to decrypt details about the last Ghibli film behind the next door. Until then you could try and figure out the encryption method all on your own",
+      "code" : "FDk0Z3OyDDfr1Fno6/3TgRmtyYVat8pz8H1hFAXTUr5huHwIzeOKZXtM9p1mfvKL8IyFzMzxCN3T5CorivAIw1Qph4gCn6I7YEULpm7Fsos4TGGCwFXtBw5pZFxcwSM56PkGgglzUjVCkr+ysSF0zitAxt2GeX1VVebwa/kcXmFEOLwoA2oviyJOlulPRtdhaAa7IZsbLPg50B3OHBBP0PqsH27dDs84GlxAQTP2qRQBQjiVDXuR0fo8aWN8wVgFE8RxCOxbBwMteMtruz4ewOPulyCTmCiWEPxRa71wEigsqUZgWYfi2ZQfEcBxeVCWot+s5RrMs+Nrl1aBo+aIag=="
+    },
+
+    {
+      "title": "YOU'VE WAITED PATIENTLY",
+      "description" : "Thank you for sticking around so long (I mean obviously its because this is such a perfect advent calendar but still) The encryption is 128-bit AES. Go decrypt your secret message!",
+      "code" : "Ghibli is fun :)"
+    }
+  ]
+}

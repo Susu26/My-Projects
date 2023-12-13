@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/spritegame_config.css">
+    <link rel="stylesheet" href="../css/spritegame.css">
+    <script src="../js/spritegame_config.js" defer></script>
+    <script src="../js/spritegame_settings.js" defer></script>
+    <title>Document</title>
+</head>
+    <body id="body69">
+
+    <div id="sticky-btn" onclick="toggle()">
+        <span>?</span>
+    </div>
+
+    <div id="wholeGame">
+        <h1 class="header">SELECT YOUR CHARACTER</h1>
+        <div id="cardcontainer">
+            <div class="card card1" onclick="toggleGlow(1)">
+                <div class="circle circle1"></div>
+                <div class="circle circle1"></div>
+                <div class="card-inner card-inner1"></div>
+            </div>
+
+            <div class="card card2" onclick="toggleGlow(2)">
+                <div class="circle circle2"></div>
+                <div class="circle circle2"></div>
+                <div class="card-inner card-inner2"></div>
+            </div>
+
+            <div class="card card3" onclick="toggleGlow(3)">
+                <div class="circle circle3"></div>
+                <div class="circle circle3"></div>
+                <div class="card-inner card-inner3"></div>
+            </div>
+        </div>
+        <h1 class="header">SELECT YOUR MAP</h1>
+        <div id="mapcontainer">
+            <div class="mapcard map1" onclick="toggleOtherGlow(7, 1)"></div>
+            <div class="mapcard map2" onclick="toggleOtherGlow(6, 2)"></div>
+            <div class="mapcard map3" onclick="toggleOtherGlow(9, 3)"></div>
+            <div class="mapcard map4" onclick="toggleOtherGlow(7, 4)"></div>
+        </div>
+        <center><button class="button"><a href="../spritegame.html">START GAME</a></button></center>
+        <br>
+        <br>
+    </div>
+
+    <div id="settingPopup">
+        <div id="sticky-btn2" onclick="toggle()">
+            <span>X</span>
+        </div>
+        <center><h1>SETTINGS</h1></center>
+    </div>
+    </body>
+
+
+</html>

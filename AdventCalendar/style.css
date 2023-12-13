@@ -1,0 +1,429 @@
+body {
+    margin            : 0;
+    padding           : 0;
+    background-image  : url('./images/background.jpg');
+    background-size   : cover;
+    background-repeat : no-repeat;
+}
+
+body::-webkit-scrollbar {
+    display : none; /*Ich glaube wegen dem schnee effekt passiert dieses scroll ding deswegen hab ichs hidden gemacht (merkt keiner hoffentlich)*/
+}
+
+
+/******************************************SNOW STUFF *****************************************/
+
+
+.snow, .snow:before, .snow:after {
+    position         : absolute;
+    top              : -650px;
+    left             : 0;
+    bottom           : 0;
+    right            : 0;
+    background-image : radial-gradient(4px 4px at 100px 50px, #FFFFFF, transparent),
+    radial-gradient(6px 6px at 200px 150px, #FFFFFF, transparent),
+    radial-gradient(3px 3px at 300px 250px, #FFFFFF 50%, transparent),
+    radial-gradient(4px 4px at 400px 350px, #FFFFFF 50%, transparent),
+    radial-gradient(6px 6px at 500px 100px, #FFFFFF 50%, transparent),
+    radial-gradient(3px 3px at 50px 200px, #FFFFFF 50%, transparent),
+    radial-gradient(4px 4px at 150px 300px, #FFFFFF 50%, transparent),
+    radial-gradient(6px 6px at 250px 400px, #FFFFFF 50%, transparent),
+    radial-gradient(3px 3px at 350px 500px, #FFFFFF 50%, transparent);
+    background-size  : 650px 650px;
+    animation        : snow 3s linear infinite;
+    content          : "";
+
+
+    overflow         : hidden;
+}
+
+.snow:after {
+    margin-left         : -250px;
+    opacity             : 0.5;
+    filter              : blur(2px);
+    animation-duration  : 6s;
+    animation-direction : reverse;
+}
+
+.snow:before {
+    margin-left         : -350px;
+    opacity             : 0.7;
+    filter              : blur(1px);
+    animation-duration  : 9s;
+    animation-direction : reverse;
+}
+
+@keyframes snow {
+    to {
+        transform : translateY(650px);
+    }
+}
+
+
+
+
+/***********************************MAIN STUFF*****************************************/
+
+#header {
+    color       : white;
+    text-align  : center;
+    font-family : 'Rubik Vinyl';
+    font-size   : 290%;
+}
+
+.container-wrapper {
+    position : relative;
+    height   : 100vh;
+}
+
+.container {
+    width                 : 60%;
+    height                : 75vh;
+    box-shadow            : 0 0 20px rgba(0, 0, 0, 0.3);
+    display               : grid;
+    grid-template-columns : repeat(6, 1fr);
+    grid-gap              : 0;
+    margin                : 5% auto;
+    position              : absolute;
+    top                   : 45%;
+    left                  : 60%;
+    transform             : translate(-50%, -50%);
+    overflow              : hidden;
+}
+
+.item {
+
+    border-radius    : 5px;
+    box-shadow       : 1px 1px 1px 1px rgba(255, 255, 255, 0.61);
+    position         : relative;
+    display          : flex;
+    justify-content  : center;
+    align-items      : center;
+    margin           : 3px;
+    opacity          : 0;
+    transition       : transform 0.3s ease, box-shadow 0.3s ease;
+    cursor           : pointer;
+
+
+    color            : white;
+    font-size        : 300%;
+    font-weight      : bolder;
+}
+
+.item:hover {
+    transform  : scale(1.1) rotate(5deg);
+    box-shadow : 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.item.large {
+    grid-column : span 2;
+    grid-row    : span 2;
+    padding     : 16px;
+}
+
+.item.size1 {
+    grid-column     : span 1;
+    grid-row        : span 1;
+    animation       : fadeIn1 2s ease forwards;
+    animation-delay : 0.1s;
+}
+
+.item.size2 {
+    grid-column     : span 2;
+    grid-row        : span 1;
+    animation       : fadeIn2 2s ease forwards;
+    animation-delay : 0.2s;
+}
+
+.item.size3 {
+    grid-column     : span 1;
+    grid-row        : span 2;
+    animation       : fadeIn3 2s ease forwards;
+    animation-delay : 0.3s;
+}
+
+.item.size4 {
+    grid-column     : span 1;
+    grid-row        : span 1;
+    animation       : fadeIn4 2s ease forwards;
+    animation-delay : 0.4s;
+}
+
+.item.size5 {
+    grid-column     : span 2;
+    grid-row        : span 2;
+    animation       : fadeIn5 2s ease forwards;
+    animation-delay : 0.5s;
+}
+
+@keyframes fadeIn1 {
+    from {
+        opacity   : 0;
+        transform : translateY(-20px);
+    }
+    to {
+        opacity   : 1;
+        transform : translateY(0);
+    }
+}
+
+@keyframes fadeIn2 {
+    from {
+        opacity   : 0;
+        transform : translateY(-20px);
+    }
+    to {
+        opacity   : 1;
+        transform : translateY(0);
+    }
+}
+
+@keyframes fadeIn3 {
+    from {
+        opacity   : 0;
+        transform : translateY(-20px);
+    }
+    to {
+        opacity   : 1;
+        transform : translateY(0);
+    }
+}
+
+@keyframes fadeIn4 {
+    from {
+        opacity   : 0;
+        transform : translateY(-20px);
+    }
+    to {
+        opacity   : 1;
+        transform : translateY(0);
+    }
+}
+
+@keyframes fadeIn5 {
+    from {
+        opacity   : 0;
+        transform : translateY(-20px);
+    }
+    to {
+        opacity   : 1;
+        transform : translateY(0);
+    }
+}
+
+
+
+#sticky-btn,  #sticky-btn2 {
+    position        : fixed;
+    top             : 10px;
+    right           : 10px;
+    width           : 60px;
+    height          : 60px;
+    border-radius   : 35px;
+    box-shadow      : 20px 20px 50px rgba(0, 0, 0, 0.9);
+    background      : rgba(255, 255, 255, 0.13);
+    border-top      : 1px solid rgba(255, 255, 255, 0.5);
+    border-left     : 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter : blur(7px);
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    cursor          : pointer;
+    z-index: 22222;
+
+}
+
+#sticky-btn,  #sticky-btn2 span {
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+
+#Popup {
+    position   : fixed;
+    box-shadow : 0 0 10px rgb(48, 47, 47);
+    top        : 40%;
+    left       : 50%;
+    transform  : translate(-50%, -50%);
+    height: 400px;
+    width      : 900px;
+    padding    : 50px;
+    z-index: 2222;
+    background : rgb(183, 183, 238);
+    visibility : hidden;
+    opacity    : 0;
+    transition : 0.5s;
+    color      : rgb(43, 41, 41);
+}
+
+#Popup.active {
+    top        : 50%;
+    visibility : visible;
+    opacity    : 1;
+    transition : 0.5s;
+}
+
+#Popup h1 {
+    font-family : 'Rubik Vinyl';
+}
+
+
+#Popup2 {
+   
+    transition: 0.5s;
+   
+}
+
+#Popup2.active {
+    
+    opacity: 1;
+    transition: 0.5s;
+    animation: fadeInPopup2 0.5s ease-in-out;
+}
+
+@keyframes fadeInPopup2 {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/***********************************DOOR-CARD-HANDELING*****************************************/
+
+.main_card {
+    width: 760px;
+    height: 390px;
+    margin: 50px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 770px;
+    border-radius: 5px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.9);
+    background: rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(7px);
+
+    z-index: 99999;
+}
+
+.card_left {
+    width: 90%;
+}
+
+.card_datails {
+    width: 90%;
+    padding: 30px;
+    margin-top: -25px;
+}
+.card_datails  h1 {
+    font-size: 30px;
+}
+.card_right img {
+    height: 390px;
+    border-radius: 2px;
+}
+.card_right {
+    border-radius: 2px;
+}
+
+.card_cat {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.PG, .year, .genre, .time {
+    color: #ffffff;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.PG {
+   
+    -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.1);
+    box-shadow: 0 0 50px rgba(0,0,0,0.1);
+    -webkit-transition: 300ms ease-in-out;
+}
+
+.disc {
+    font-weight: 100;
+    line-height: 27px;
+}
+
+
+a {
+    color: darkcyan;
+    display: block;
+    text-decoration: none;
+}
+
+
+.code {
+    cursor: pointer;
+}
+
+#spanCard {
+
+    width           : 50px;
+    height          : 50px;
+    margin: 3%;
+
+   color: white;
+   border-radius   : 35px;
+   box-shadow      : 20px 20px 50px rgba(0, 0, 0, 0.9);
+   background      : rgba(255, 255, 255, 0.13);
+   border-top      : 1px solid rgba(255, 255, 255, 0.5);
+   border-left     : 1px solid rgba(255, 255, 255, 0.5);
+   backdrop-filter : blur(7px);
+
+   cursor: pointer;
+
+}
+
+.remove {
+    visibility : hidden;
+}
+
+
+/******************************************************************/
+
+.item-content-animation {
+    color: red;
+    animation: textAnimation 0.5s ease-in-out;
+}
+
+@keyframes textAnimation {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    75% {
+        transform: translateX(-5px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+
+

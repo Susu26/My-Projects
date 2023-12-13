@@ -1,0 +1,104 @@
+/* General styling */
+html, body {
+    margin           : 0;
+    padding          : 0;
+    background-color : black;
+    user-select: none;
+}
+
+/* Sprite game surface */
+#surface {
+    height           : 450px;
+    width            : 800px;
+    position         : relative;
+    margin           : 1% auto 0;
+    transform-origin : top;
+    overflow         : hidden;
+}
+
+/****************************************************SETTING BUTTON*********************************************************/
+
+#sticky-btn, #sticky-btn2 {
+    position        : fixed;
+    top             : 10px;
+    right           : 10px;
+    width           : 30px;
+    height          : 30px;
+    border-radius   : 25px;
+    box-shadow      : 20px 20px 50px rgba(0, 0, 0, 0.9);
+    background      : rgba(255, 255, 255, 0.13);
+    border-top      : 1px solid rgba(255, 255, 255, 0.5);
+    border-left     : 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter : blur(7px);
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    cursor          : pointer;
+    z-index         : 2000;
+}
+
+#sticky-btn span {
+    color     : white;
+    font-size : 20px;
+}
+
+#wholeGame.active {
+    filter : blur(10px);
+}
+
+#settingPopup {
+    position   : fixed;
+    box-shadow : 0 0 10px white;
+    top        : 40%;
+    left       : 50%;
+    transform  : translate(-50%, -50%);
+    width      : 600px;
+    padding    : 50px;
+
+    background : black;
+    visibility : hidden;
+    opacity    : 0;
+    transition : 0.5s;
+    color      : white;
+}
+
+#settingPopup.active {
+    top        : 50%;
+    visibility : visible;
+    opacity    : 1;
+    transition : 0.5s;
+}
+
+/****************************************************BACKGROUND*********************************************************/
+
+
+#player {
+    position : absolute;
+    z-index  : 9999;
+    opacity  : 0; /* hide till start */
+}
+
+
+#spriteImg {
+    height   : 20vh;
+    width    : 10vw;
+    position : relative;
+}
+
+/****************************************************OBSTACLE STYLING*********************************************************/
+
+/*#obstacleDiv {
+    display  : flex;
+    position : absolute;
+    top      : 340px;
+    left     : 0;
+    z-index  : 3000;
+}*/
+
+.obstacle {
+    position : absolute;
+    top      : 373px;
+    left     : 10000px;
+    width    : 95px;
+    z-index  : 3000;
+}
